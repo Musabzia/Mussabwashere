@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="mine.css">
 </head>
 <body>
-    <p>Me: Wassup broo how are you?</p>
-    <p>Bro: Hey, I'm doing well! Just busy with work.</p>
-    <p>Me: Oh, that's great to hear. How about you? Any interesting stories lately?</p>
+    <h1>Chat App</h1>
+    <div class="chathere">
+        <div class="chat-message">
+            <p>Me: Wassup broo how are you?</p>
+        </div>
+        <div class="chat-message">
+            <p>Bro: Hey, I'm doing well! Just busy with work.</p>
+        </div>
+        <div class="chat-message">
+            <p>Me: Oh, that's great to hear. How about you? Any interesting stories lately?</p>
+        </div>
+        <input type="text" id="messageInput" placeholder="Type your message here...">
+        <button onclick="sendMessage()">Send</button>   
+    </div>
+    
+    
 
 </body>
 </html>

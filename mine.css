@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.chathere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 50vw ;
+    background-color: blueviolet;
+}
+.chat-message{
+    margin-top: 10px;
+}
+button{
+    margin-top: 0px
+}
